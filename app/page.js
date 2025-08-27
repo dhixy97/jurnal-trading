@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 
 export default function HomePage() {
-  const [modal, setModal] = useState(500);
+  const [modal, setModal] = useState(467.27);
   const [riskPct, setRiskPct] = useState(3);
   const [valuePerLot, setValuePerLot] = useState(100);
   const [trades, setTrades] = useState([]);
